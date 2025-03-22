@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-gray-100">
       <div className="bg-white shadow-lg rounded-lg p-6 max-w-2xl w-full">
-        <h1 className="text-3xl font-bold text-center text-gray-900">你的名字</h1>
+        <h1 className="text-3xl font-bold text-center text-gray-900">黃文亮(Matt Huang)</h1>
         <p className="text-center text-gray-600">前端開發工程師</p>
 
         <section className="mt-6">
