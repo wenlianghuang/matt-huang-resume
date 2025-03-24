@@ -17,8 +17,7 @@ export default function Home() {
         <p className="text-center text-gray-600">前端開發工程師</p>
 
         {/* 顯示來自後端的訊息 */}
-        <p className="text-center text-gray-700 mt-4">{message}</p>
-
+        <p className="text-center text-gray-700 mt-4">Hello,{message}</p>
         <section className="mt-6">
           <h2 className="text-xl font-semibold text-gray-800">關於我</h2>
           <p className="text-gray-700">這裡可以放一段簡短的自我介紹。</p>
