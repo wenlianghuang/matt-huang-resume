@@ -23,7 +23,7 @@ const DynamicPage: React.FC = () => {
     return (
         <Grid container direction="column" sx={{ height: '100vh' }}>
             {/* Section 1: Image Slider */}
-            <Grid item xs={12}>
+            <Grid container>
                 <Box
                     component="img"
                     src={images[currentImageIndex]}
@@ -37,25 +37,29 @@ const DynamicPage: React.FC = () => {
             </Grid>
 
             {/* Other Sections */}
-            <Grid item xs={12}>
-                <Grid container>
-                    <Grid item xs={6} sx={{ backgroundColor: '#f0f0f0' }}>
+            <Grid container >
+                <Grid >
+                    <Box sx={{ backgroundColor: '#f0f0f0', height: '100%' }}>
                         Section 2
-                    </Grid>
-                    <Grid item xs={6} sx={{ backgroundColor: '#d0d0d0' }}>
+                    </Box>
+                </Grid>
+                <Grid >
+                    <Box sx={{ backgroundColor: '#d0d0d0', height: '100%' }}>
                         Section 3
-                    </Grid>
+                    </Box>
                 </Grid>
             </Grid>
 
-            <Grid item xs={12}>
-                <Grid container>
-                    <Grid item xs={6} sx={{ backgroundColor: '#b0b0b0' }}>
+            <Grid container >
+                <Grid >
+                    <Box sx={{ backgroundColor: '#b0b0b0', height: '100%' }}>
                         Section 4
-                    </Grid>
-                    <Grid item xs={6} sx={{ backgroundColor: '#909090' }}>
+                    </Box>
+                </Grid>
+                <Grid >
+                    <Box sx={{ backgroundColor: '#909090', height: '100%' }}>
                         Section 5
-                    </Grid>
+                    </Box>
                 </Grid>
             </Grid>
         </Grid>
