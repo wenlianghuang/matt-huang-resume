@@ -37,29 +37,25 @@ const DynamicPage: React.FC = () => {
 
             {/* Other Sections */}
             <Grid item xs={12}>
-                <Box>
-                    <Box display="flex" flexDirection="row">
-                        <Grid item xs={6} sx={{ backgroundColor: '#f0f0f0' }}>
-                            Section 2
-                        </Grid>
-                        <Grid item xs={6} sx={{ backgroundColor: '#d0d0d0' }}>
-                            Section 3
-                        </Grid>
-                    </Box>
-                </Box>
+                <Grid container>
+                    <Grid item xs={6} sx={{ backgroundColor: '#f0f0f0' }}>
+                        Section 2
+                    </Grid>
+                    <Grid item xs={6} sx={{ backgroundColor: '#d0d0d0' }}>
+                        Section 3
+                    </Grid>
+                </Grid>
             </Grid>
 
             <Grid item xs={12}>
-                <Box>
-                    <Box display="flex" flexDirection="row">
-                        <Grid item xs={6} sx={{ backgroundColor: '#b0b0b0' }}>
-                            Section 4
-                        </Grid>
-                        <Grid item xs={6} sx={{ backgroundColor: '#909090' }}>
-                            Section 5
-                        </Grid>
-                    </Box>
-                </Box>
+                <Grid container>
+                    <Grid item xs={6} sx={{ backgroundColor: '#b0b0b0' }}>
+                        Section 4
+                    </Grid>
+                    <Grid item xs={6} sx={{ backgroundColor: '#909090' }}>
+                        Section 5
+                    </Grid>
+                </Grid>
             </Grid>
         </Grid>
     );
