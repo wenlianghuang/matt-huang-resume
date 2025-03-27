@@ -15,53 +15,23 @@ const DynamicPage: React.FC = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 10000); // Change image every 10 seconds
+        }, 10000); // 每10秒切換圖片
 
         return () => clearInterval(interval);
     }, [images.length]);
 
     return (
-        <Grid container direction="column" sx={{ height: '100vh' }}>
-            {/* Section 1: Image Slider */}
-            <Grid container>
-                <Box
-                    component="img"
-                    src={images[currentImageIndex]}
-                    alt="Slideshow"
-                    sx={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                    }}
-                />
-            </Grid>
-
-            {/* Other Sections */}
-            <Grid container >
-                <Grid >
-                    <Box sx={{ backgroundColor: '#f0f0f0', height: '100%' }}>
-                        Section 2
-                    </Box>
-                </Grid>
-                <Grid >
-                    <Box sx={{ backgroundColor: '#d0d0d0', height: '100%' }}>
-                        Section 3
-                    </Box>
-                </Grid>
-            </Grid>
-
-            <Grid container >
-                <Grid >
-                    <Box sx={{ backgroundColor: '#b0b0b0', height: '100%' }}>
-                        Section 4
-                    </Box>
-                </Grid>
-                <Grid >
-                    <Box sx={{ backgroundColor: '#909090', height: '100%' }}>
-                        Section 5
-                    </Box>
-                </Grid>
-            </Grid>
+        <Grid container sx={{ height: '100vh' }}>
+            <Box
+                component="img"
+                src={images[currentImageIndex]}
+                alt="Slideshow"
+                sx={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                }}
+            />
         </Grid>
     );
 };
