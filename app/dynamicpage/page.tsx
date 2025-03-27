@@ -4,19 +4,20 @@ import { Box, Grid } from '@mui/material';
 
 const DynamicPage: React.FC = () => {
     const images = [
-        'pexels-1.jpg',
-        'pexels-2.jpg',
-        'pexels-3.jpg',
-        'pexels-4.jpg',
+        'pexels1.jpg',
+        'pexels2.jpg',
+        'pexels3.jpg',
+        'pexels4.jpg',
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
+    
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
         }, 10000); // 每10秒切換圖片
-
+        console.log('Image index changed to:', currentImageIndex);
+        // 清除定時器以避免內存洩漏
         return () => clearInterval(interval);
     }, [images.length]);
 
