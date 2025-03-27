@@ -4,10 +4,10 @@ import { Box, Grid } from '@mui/material';
 
 const DynamicPage: React.FC = () => {
     const images = [
-        '../image/pexels-1.jpg',
-        '../image/pexels-2.jpg',
-        '../image/pexels-3.jpg',
-        '../image/pexels-4.jpg',
+        '../Image/pexels-1.jpg',
+        '../Image/pexels-2.jpg',
+        '../Image/pexels-3.jpg',
+        '../Image/pexels-4.jpg',
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
