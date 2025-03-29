@@ -1,6 +1,5 @@
 "use client";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Image from "next/image";
 
 export default function bootstraptest() {
   return (

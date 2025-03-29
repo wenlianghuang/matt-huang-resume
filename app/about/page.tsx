@@ -1,7 +1,6 @@
 
 'use client';
 import Image from 'next/image';
-//import './page.module.css'
 export default function About() {
     
   return (
