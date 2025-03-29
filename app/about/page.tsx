@@ -2,7 +2,7 @@
 'use client';
 import Image from 'next/image';
 import {useEffect} from 'react';
-import './page.css'
+import './page.module.css'
 export default function About() {
     
   return (
