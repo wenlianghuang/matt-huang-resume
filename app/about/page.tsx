@@ -169,10 +169,16 @@ export default function About() {
                 <i className='devicon-c-plain-wordmark colored'></i>
               </li>
               <li className='list-inline-item'>
-                <i className='devicon-css3-plain-wordmark colored'></i>
+                <i className='devicon-cplusplus-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-csharp-plain-wordmark colored'></i>
               </li>
               <li className='list-inline-item'>
                 <i className='devicon-javascript-plain colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-typescript-plain colored'></i>
               </li>
               <li className='list-inline-item'>
                 <i className='devicon-react-original-wordmark colored'></i>
