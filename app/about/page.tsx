@@ -223,7 +223,7 @@ export default function About() {
                   <i className='devicon-windows8-original colored'></i>
                 </li>
                 <li className='list-inline-item'>
-                  <i className='devicon-macos-plain-wordmark colored'></i>
+                  <i className='devicon-apple-original colored'></i>
                 </li>
               </ul>
           </div>
