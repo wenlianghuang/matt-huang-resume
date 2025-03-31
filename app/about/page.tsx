@@ -172,7 +172,13 @@ export default function About() {
                 <i className='devicon-cplusplus-plain-wordmark colored'></i>
               </li>
               <li className='list-inline-item'>
+                <i className='devicon-python-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
                 <i className='devicon-csharp-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-php-plain-wordmark colored'></i>
               </li>
               <li className='list-inline-item'>
                 <i className='devicon-javascript-plain colored'></i>
@@ -184,10 +190,28 @@ export default function About() {
                 <i className='devicon-react-original-wordmark colored'></i>
               </li>
               <li className='list-inline-item'>
-                <i className='devicon-angularjs-plain colored'></i>
+                <i className='devicon-nodejs-plain-wordmark colored'></i>
               </li>
               <li className='list-inline-item'>
-                <i className='devicon-nodejs-plain-wordmark colored'></i>
+                <i className='devicon-golang-plain-wordmark colored'></i>
+              </li>
+            </ul>
+            <div className='subheading mb-3'>DevOps</div>
+            <ul className='list-inline dev-icons'>
+              <li className='list-inline-item'>
+                <i className='devicon-amazonwebservices-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-azure-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-docker-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-kubernetes-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-gitlab-plain-wordmark colored'></i>
               </li>
             </ul>
           </div>
