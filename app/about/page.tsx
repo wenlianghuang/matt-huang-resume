@@ -166,7 +166,7 @@ export default function About() {
             <div className='subheading mb-3'>Programming Languages &amp; Technologies</div>
             <ul className='list-inline dev-icons'>
               <li className='list-inline-item'>
-                <i className='devicon-html5-plain-wordmark colored'></i>
+                <i className='devicon-c-plain-wordmark colored'></i>
               </li>
               <li className='list-inline-item'>
                 <i className='devicon-css3-plain-wordmark colored'></i>
