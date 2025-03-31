@@ -158,6 +158,33 @@ export default function About() {
               <div className="flex-shrink-0"><span className="text-primary">August 2013 - Novembor 2016</span></div>
             </div>
           </div>
+        </section>
+        {/* Skills Section */}
+        <section className="resume-section" id="skills">
+          <div className='resume-section-content'>
+            <h2 className="mb-5">Skills</h2>
+            <div className='subheading mb-3'>Programming Languages &amp; Technologies</div>
+            <ul className='list-inline dev-icons'>
+              <li className='list-inline-item'>
+                <i className='devicon-html5-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-css3-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-javascript-plain colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-react-original-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-angularjs-plain colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-nodejs-plain-wordmark colored'></i>
+              </li>
+            </ul>
+          </div>
         </section>  
         {/* Patent Section */}
         <section className="resume-section" id="awards">
