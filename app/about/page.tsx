@@ -193,7 +193,7 @@ export default function About() {
                 <i className='devicon-nodejs-plain-wordmark colored'></i>
               </li>
               <li className='list-inline-item'>
-                <i className='devicon-gol-origin-wordmark colored'></i>
+                <i className='devicon-go-origin-wordmark colored'></i>
               </li>
             </ul>
             <div className='subheading mb-3'>DevOps</div>
@@ -214,19 +214,20 @@ export default function About() {
                 <i className='devicon-gitlab-plain-wordmark colored'></i>
               </li>
             </ul>
+            <div className='subheading mb-3'>Operating System</div>
+              <ul className='list-inline dev-icons'>
+                <li className='list-inline-item'>
+                  <i className='devicon-linux-plain-wordmark colored'></i>
+                </li>
+                <li className='list-inline-item'>
+                  <i className='devicon-windows8-original colored'></i>
+                </li>
+                <li className='list-inline-item'>
+                  <i className='devicon-macos-plain-wordmark colored'></i>
+                </li>
+              </ul>
           </div>
-          <div className='subheading mb-3'>Operating System</div>
-          <ul className='list-inline dev-icons'>
-            <li className='list-inline-item'>
-              <i className='devicon-linux-plain-wordmark colored'></i>
-            </li>
-            <li className='list-inline-item'>
-              <i className='devicon-windows8-original colored'></i>
-            </li>
-            <li className='list-inline-item'>
-              <i className='devicon-macos-plain-wordmark colored'></i>
-            </li>
-          </ul>
+          
         </section>  
         {/* Patent Section */}
         <section className="resume-section" id="awards">
