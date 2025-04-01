@@ -9,7 +9,8 @@ export default function Bkendex() {
       .then((res) => res.json())
       .then((json) => {
         setData(json.message);
-        setTime(json.log)})
+        setTime(json.log);
+    })
       .catch((err) => console.error("API 錯誤:", err));
   }, []);
 
