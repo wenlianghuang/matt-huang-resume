@@ -7,7 +7,9 @@ export default function Bkendex() {
   useEffect(() => {
     fetch("https://matt-huang-resume-backend.vercel.app/api/data")
       .then((res) => res.json())
-      .then((json) => {setData(json.message),setTime(json.log)})
+      .then((json) => {
+        setData(json.message);
+        setTime(json.log)})
       .catch((err) => console.error("API 錯誤:", err));
   }, []);
 
