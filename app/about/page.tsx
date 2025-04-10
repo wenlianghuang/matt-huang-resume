@@ -125,7 +125,7 @@ export default function About() {
                           <li>Uploaded on-premises full-stack web applications and data to the cloud. (AWS,Azure)</li>
                         </ul>
                     </div>
-                  <div className="flex-shrink-0"><span className="text-primary">December 2011 - March 2013</span></div>
+                  <div className="flex-shrink-0"><span className="text-primary">October 2021 - June 2023</span></div>
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div className="flex-grow-1">
