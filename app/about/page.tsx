@@ -129,17 +129,21 @@ export default function About() {
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div className="flex-grow-1">
-                    <h3 className="mb-0">Junior Web Designer</h3>
-                      <div className="subheading mb-3">Shout! Media Productions</div>
-                          <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                    <h3 className="mb-0">SOFTWARE ENGINEER</h3>
+                      <div className="subheading mb-3">Web Frontend Design</div>
+                          <ul>
+                            <li>Developed web front-end using ReactJS.</li>
+                          </ul>
                       </div>
-                      <div className="flex-shrink-0"><span className="text-primary">July 2010 - December 2011</span></div>
+                      <div className="flex-shrink-0"><span className="text-primary">June 2021 - Septemper 2021</span></div>
                   </div>
                   <div className="d-flex flex-column flex-md-row justify-content-between">
                     <div className="flex-grow-1">
-                      <h3 className="mb-0">Web Design Intern</h3>
-                      <div className="subheading mb-3">Shout! Media Productions</div>
-                      <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                      <h3 className="mb-0">Research Assistant</h3>
+                      <div className="subheading mb-3">Statics and Analyze Particle Physics </div>
+                      <ul>
+                        <li>Conducted data mining and statistical analysis at CERN for particle physics research.</li>
+                      </ul>
                     </div>
                   <div className="flex-shrink-0"><span className="text-primary">September 2008 - June 2010</span></div>
                 </div>
