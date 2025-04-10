@@ -76,7 +76,7 @@ export default function About() {
               Wen-Liang <span className="text-primary">Huang</span>
             </h1>
             <div className="subheading mb-5">
-              3542 Berry Street · Cheyenne Wells, CO 80810 · (886) 983068287 ·{' '}
+              (886) 983068287 ·{' '}
               <a href="mailto:wenliangmatt@email.com">wenliangmatt@gmail.com</a>
             </div>
             <p className="lead mb-5">
@@ -106,8 +106,12 @@ export default function About() {
               <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
                   <h3 className="mb-0">Senior Software Engineer</h3>
-                    <div className="subheading mb-3">Intelitec Solutions</div>
-                    <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                    <div className="subheading mb-3">Chatbot AI Agent</div>
+                    <ul>
+                      <li>Retrained LLM models using data to generate new models and productized the new models</li>
+                      <li>Embedding RAG to LLM and optimize a privacy chatbot for internal staff</li>
+                      <li>Build Agentic AI Tools to help users to find the best solution</li>
+                    </ul>
                   </div>
                   <div className="flex-shrink-0"><span className="text-primary">March 2013 - Present</span></div>
                 </div>
