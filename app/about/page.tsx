@@ -113,7 +113,7 @@ export default function About() {
                       <li>Build Agentic AI Tools to help users to find the best solution</li>
                     </ul>
                   </div>
-                  <div className="flex-shrink-0"><span className="text-primary">March 2013 - Present</span></div>
+                  <div className="flex-shrink-0"><span className="text-primary">July 2023 - Present</span></div>
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div className="flex-grow-1">
