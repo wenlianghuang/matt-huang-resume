@@ -13,7 +13,7 @@ export default function About() {
           <span className="d-none d-lg-block">
             <Image
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src="/assets/img/profile.jpg"
+              src="/assets/img/matt_profile.jpg"
               alt="Profile"
               width={150}
               height={150}
