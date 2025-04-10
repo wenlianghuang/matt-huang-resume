@@ -117,9 +117,13 @@ export default function About() {
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div className="flex-grow-1">
-                    <h3 className="mb-0">Web Developer</h3>
-                      <div className="subheading mb-3">Intelitec Solutions</div>
-                        <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                    <h3 className="mb-0">Software Engineer</h3>
+                      <div className="subheading mb-3">Cloud Service Architect</div>
+                        <ul>
+                          <li>Developed and deployed cloud architecture.</li>
+                          <li>Developed and analyzed data using C++/C#/Python.</li>
+                          <li>Uploaded on-premises full-stack web applications and data to the cloud. (AWS,Azure)</li>
+                        </ul>
                     </div>
                   <div className="flex-shrink-0"><span className="text-primary">December 2011 - March 2013</span></div>
                 </div>
