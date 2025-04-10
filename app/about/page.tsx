@@ -80,9 +80,7 @@ export default function About() {
               <a href="mailto:wenliangmatt@email.com">wenliangmatt@gmail.com</a>
             </div>
             <p className="lead mb-5">
-              I am experienced in leveraging agile frameworks to provide a robust synopsis for high
-              level overviews. Iterative approaches to corporate strategy foster collaborative
-              thinking to further the overall value proposition.
+            I HAVE FIVE YEARS OF SOFTWARE DEVELOPMENT EXPERIENCE, FOCUSING ON DATA PROCESSING, CLOUD ARCHITECTURE, WEB DEVELOPMENT, AND ARTIFICIAL INTELLIGENCE. I EXCEL IN INTER-DEPARTMENTAL COMMUNICATION, LEADING TO NUMEROUS CROSS-DEPARTMENTAL PROJECTS AND OVER SIX PATENTS. I THINK THAT I AM A DEVOPS ENGINEER
             </p>
             <div className="social-icons">
               <a className="social-icon" href="#!">
