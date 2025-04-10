@@ -145,7 +145,7 @@ export default function About() {
                         <li>Conducted data mining and statistical analysis at CERN for particle physics research.</li>
                       </ul>
                     </div>
-                  <div className="flex-shrink-0"><span className="text-primary">September 2008 - June 2010</span></div>
+                  <div className="flex-shrink-0"><span className="text-primary">December 2020 - May 2021</span></div>
                 </div>
               </div>
             </section>
