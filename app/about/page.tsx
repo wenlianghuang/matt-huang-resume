@@ -215,8 +215,28 @@ export default function About() {
               <li className='list-inline-item'>
                 <i className='devicon-go-original-wordmark colored'></i>
               </li>
+              <li className='list-inline-item'>
+                <i className='devicon-mysql-plain-wordmark colored'></i>
+              </li>
             </ul>
             <div className='subheading mb-3'>DevOps</div>
+            <ul className='list-inline dev-icons'>
+              <li className='list-inline-item'>
+                <i className='devicon-amazonwebservices-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-azure-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-docker-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-kubernetes-plain-wordmark colored'></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicon-gitlab-plain-wordmark colored'></i>
+              </li>
+            </ul>
             <ul className='list-inline dev-icons'>
               <li className='list-inline-item'>
                 <i className='devicon-amazonwebservices-plain-wordmark colored'></i>
