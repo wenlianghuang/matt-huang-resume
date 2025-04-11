@@ -268,7 +268,7 @@ export default function About() {
               </ul>
               <div className='subheading mb-3'>Artificial Intelligence</div>
               <ul className='list-inline dev-icons'>
-                <li>
+                <li style={{ fontSize: '20px' }}>
                 Large Language Model
                 </li>
                 <li>
