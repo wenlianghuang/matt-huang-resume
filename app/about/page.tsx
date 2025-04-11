@@ -266,6 +266,30 @@ export default function About() {
                   <i className='devicon-apple-original colored'></i>
                 </li>
               </ul>
+              <div className='subheading mb-3'>Artificial Intelligence</div>
+              <ul className='list-inline dev-icons'>
+                <li className='list-inline-item'>
+                Large Language Model
+                </li>
+                <li className='list-inline-item'>
+                Small Language Model
+                </li>
+                <li className='list-inline-item'>
+                Fine-Tune Training
+                </li>
+                <li className='list-inline-item'>
+                Retrieval Argument Generative
+                </li>
+                <li className='list-inline-item'>
+                OpenVINO of Intel
+                </li>
+                <li className='list-inline-item'>
+                  Qualcomm AI Engine SDK (QNN)
+                </li>
+                <li className='list-inline-item'>
+                  Neural Processing Unit(NPU)
+                </li>
+              </ul>
           </div>
           
         </section>  
