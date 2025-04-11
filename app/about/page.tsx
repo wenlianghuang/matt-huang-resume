@@ -237,23 +237,6 @@ export default function About() {
                 <i className='devicon-gitlab-plain-wordmark colored'></i>
               </li>
             </ul>
-            <ul className='list-inline dev-icons'>
-              <li className='list-inline-item'>
-                <i className='devicon-amazonwebservices-plain-wordmark colored'></i>
-              </li>
-              <li className='list-inline-item'>
-                <i className='devicon-azure-plain-wordmark colored'></i>
-              </li>
-              <li className='list-inline-item'>
-                <i className='devicon-docker-plain-wordmark colored'></i>
-              </li>
-              <li className='list-inline-item'>
-                <i className='devicon-kubernetes-plain-wordmark colored'></i>
-              </li>
-              <li className='list-inline-item'>
-                <i className='devicon-gitlab-plain-wordmark colored'></i>
-              </li>
-            </ul>
             <div className='subheading mb-3'>Operating System</div>
               <ul className='list-inline dev-icons'>
                 <li className='list-inline-item'>
@@ -271,22 +254,22 @@ export default function About() {
                 <li style={{ fontSize: '20px' }}>
                 Large Language Model
                 </li>
-                <li>
+                <li style={{ fontSize: '20px' }}>
                 Small Language Model
                 </li>
-                <li>
+                <li style={{ fontSize: '20px' }}>
                 Fine-Tune Training
                 </li>
-                <li>
+                <li style={{ fontSize: '20px' }}>
                 Retrieval Argument Generative
                 </li>
-                <li>
+                <li style={{ fontSize: '20px' }}>
                 OpenVINO of Intel
                 </li>
-                <li>
+                <li style={{ fontSize: '20px' }}>
                   Qualcomm AI Engine SDK (QNN)
                 </li>
-                <li>
+                <li style={{ fontSize: '20px' }}>
                   Neural Processing Unit(NPU)
                 </li>
               </ul>
