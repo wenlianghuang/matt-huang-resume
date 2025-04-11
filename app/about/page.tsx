@@ -296,6 +296,14 @@ export default function About() {
                 </span>
                 Find user-related strategies through screen analysis (ROC/China/USA) 2024
               </li>
+              <li>
+                <span className="fa-li">
+                  <i className="fas fa-trophy text-warning"></i>
+                </span>
+                <a href="https://github.com/wenlianghuang/pyqt6-chatbot-app.git" target="_blank" rel="noopener noreferrer">
+                  pyqt6-chatbot-app
+                </a>
+              </li>
             </ul>
           </div>
         </section>
