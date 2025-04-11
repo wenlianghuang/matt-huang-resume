@@ -268,25 +268,25 @@ export default function About() {
               </ul>
               <div className='subheading mb-3'>Artificial Intelligence</div>
               <ul className='list-inline dev-icons'>
-                <li className='list-inline-item'>
+                <li>
                 Large Language Model
                 </li>
-                <li className='list-inline-item'>
+                <li>
                 Small Language Model
                 </li>
-                <li className='list-inline-item'>
+                <li>
                 Fine-Tune Training
                 </li>
-                <li className='list-inline-item'>
+                <li>
                 Retrieval Argument Generative
                 </li>
-                <li className='list-inline-item'>
+                <li>
                 OpenVINO of Intel
                 </li>
-                <li className='list-inline-item'>
+                <li>
                   Qualcomm AI Engine SDK (QNN)
                 </li>
-                <li className='list-inline-item'>
+                <li>
                   Neural Processing Unit(NPU)
                 </li>
               </ul>
