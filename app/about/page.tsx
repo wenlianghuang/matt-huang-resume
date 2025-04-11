@@ -147,6 +147,16 @@ export default function About() {
                     </div>
                   <div className="flex-shrink-0"><span className="text-primary">December 2020 - May 2021</span></div>
                 </div>
+                <div className="d-flex flex-column flex-md-row justify-content-between">
+                    <div className="flex-grow-1">
+                      <h3 className="mb-0">Web Developer</h3>
+                      <div className="subheading mb-3">Develop Full Stack Web Page</div>
+                      <ul>
+                        <li>Conducted data mining and statistical analysis at CERN for particle physics research.</li>
+                      </ul>
+                    </div>
+                  <div className="flex-shrink-0"><span className="text-primary">December 2020 - May 2021</span></div>
+                </div>
               </div>
             </section>
         {/* Education Section */}
