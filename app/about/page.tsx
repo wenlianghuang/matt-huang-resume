@@ -218,6 +218,9 @@ export default function About() {
               <li className='list-inline-item'>
                 <i className='devicon-mysql-plain-wordmark colored'></i>
               </li>
+              <li className='list-inline-item'>
+                <i className="devicon-pytorch-original colored"></i>
+              </li>
             </ul>
             <div className='subheading mb-3'>DevOps</div>
             <ul className='list-inline dev-icons'>
