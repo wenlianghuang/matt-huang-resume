@@ -83,7 +83,7 @@ export default function About() {
             I HAVE FIVE YEARS OF SOFTWARE DEVELOPMENT EXPERIENCE, FOCUSING ON DATA PROCESSING, CLOUD ARCHITECTURE, WEB DEVELOPMENT, AND ARTIFICIAL INTELLIGENCE. I EXCEL IN INTER-DEPARTMENTAL COMMUNICATION, LEADING TO NUMEROUS CROSS-DEPARTMENTAL PROJECTS AND OVER SIX PATENTS. I THINK THAT I AM A DEVOPS ENGINEER
             </p>
             <div className="social-icons">
-              <a className="social-icon" href="#!">
+              <a className="social-icon" href="www.linkedin.com/in/wen-liang-huang-137a53257">
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a className="social-icon" href="#!">
@@ -332,6 +332,14 @@ export default function About() {
                 </span>
                 <a href="https://github.com/wenlianghuang/pyqt6-chatbot-app.git" target="_blank" rel="noopener noreferrer">
                   pyqt6-chatbot-app
+                </a>
+              </li>
+              <li>
+                <span className='fa-li'>
+                  <i className="fas fa-trophy text-warning"></i>
+                </span>
+                <a href="https://github.com/wenlianghuang/OpenVINO-YOLOv10-Object-Detection.git" target="_blank" rel="noopener noreferrer">
+                OpenVINO-YOLOv10-Object-Detection
                 </a>
               </li>
             </ul>
